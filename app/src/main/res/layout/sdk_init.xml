@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SDK 初始化"
+            android:textStyle="bold" />
+
+        <!-- 新增：模型列表来源选择 -->
+        <RadioGroup
+            android:id="@+id/rg_model_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/rb_builtin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="内置模型下载（也可调用者提供下载url）" />
+
+            <RadioButton
+                android:id="@+id/rb_remote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用分音塔提供的接口获取下载列表" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/et_sn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="设备SN"
+            android:text="sn:ax"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/et_license"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="license"
+            android:text="62ec4329bbf586dd533e77c4c8ab30aa601c475930e0779d68b808ee6b03c7b7b2bef656250fb09de325c3d8869abbe3cdf8b579a4ab7b0634248b32234c421c02918f4adb1c4d5c77c938126eda50b762e87695ca612ef4b3214d2d8fa9a2b84dd586f5f1c65e5d724a683362438c4d963312c8ef5b"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btn_init"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="初始化 SDK" />
+
+        <Button
+            android:id="@+id/btn_open_models"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进入模型管理" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="" />
+
+    </LinearLayout>
+</ScrollView>

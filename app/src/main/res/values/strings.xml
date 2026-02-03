@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ASR Demo</string>
+    <string name="recognize_file">开始文件识别</string>
+    <string name="recognize_microphone">开始麦克风识别</string>
+    <string name="stop_microphone">停止麦克风识别</string>
+    <string name="preparing">Preparing the recognizer\n</string>
+    <string name="ready">Ready\n</string>
+    <string name="failed">Failed to init recognizer %s\n</string>
+    <string name="starting">Starting\n</string>
+    <string name="say_something">Say something\n</string>
+    <string name="stop_file">停止文件识别</string>
+    <string name="pause">暂停识别</string>
+    <string name="continueRecognition">继续识别</string>
+
+    <!-- Added localized strings used in layout -->
+    <string name="export_logs">导出日志</string>
+    <string name="status_initializing">状态: 初始化中…</string>
+    <string name="status_model_ready">状态: 模型已就绪</string>
+    <string name="status_no_logs">状态: 没有日志可导出</string>
+    <string name="status_logs_exported">状态: 日志已导出到 %s</string>
+    <string name="status_export_failed">状态: 导出失败: %s</string>
+    <string name="status_recognizing_file">状态: 识别文件中…</string>
+    <string name="status_recognizing_mic">状态: 识别麦克风中…</string>
+    <string name="load_en_model">英文模型</string>
+    <string name="load_cn_model">中文模型</string>
+
+
+    <string name="cloud_cn">云端中文</string>
+    <string name="cloud_en">云端英文</string>
+
+    <string name="cloud_preparing">正在下载/解压: %1$s</string>
+    <string name="cloud_downloading">下载中: %1$s (%2$s)</string>
+    <string name="open_sdk_demo">打开 SDK Demo</string>
+
+    <string name="sdk_demo_title">SDK Demo（license→下载→初始化→识别）</string>
+    <string name="hint_device_sn">设备SN</string>
+    <string name="hint_license">license</string>
+
+    <string name="btn_init_sdk">1) 初始化SDK</string>
+    <string name="btn_download_ca">2) 下载加泰罗尼亚（ca）</string>
+    <string name="btn_init_ca">3) 初始化模型（加泰罗尼亚）</string>
+    <string name="btn_start_mic">4) 开始麦克风识别</string>
+    <string name="btn_stop_mic">停止识别</string>
+
+    <string name="toggle_pause_on">继续识别</string>
+    <string name="toggle_pause_off">暂停识别</string>
+
+    <string name="sdk_status_initializing">SDK 初始化中...</string>
+    <string name="sdk_status_init_ok">SDK 初始化成功</string>
+    <string name="sdk_status_init_failed">SDK 初始化失败：%1$s</string>
+    <string name="sdk_status_downloading">开始下载 %1$s...</string>
+    <string name="sdk_status_progress">%1$s: %2$s</string>
+    <string name="sdk_status_model_ready">模型就绪: %1$s</string>
+    <string name="sdk_status_model_init_failed">初始化失败: %1$s</string>
+    <string name="sdk_status_mic_running">麦克风识别中...</string>
+    <string name="sdk_status_mic_stopped">已停止</string>
+    <string name="sdk_status_paused">已暂停</string>
+    <string name="sdk_status_listening">识别中</string>
+    <string name="sdk_status_asr_error">识别错误: %1$s</string>
+    <string name="sdk_status_asr_timeout">识别超时</string>
+
+    <!-- SDK Demo 新增：文件识别入口 -->
+    <string name="sdk_file_section_title">文件识别</string>
+    <string name="sdk_file_not_selected">未选择文件</string>
+    <string name="sdk_btn_pick_file">选择音频文件</string>
+    <string name="sdk_btn_start_file">开始文件识别</string>
+    <string name="sdk_btn_stop_file">停止文件识别</string>
+
+</resources>
